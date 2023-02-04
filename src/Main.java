@@ -41,24 +41,25 @@ public class Main {
 
     public static void task3() {
         System.out.println("Задача № 3");
-        int year = 2023;
+        int year = 2020;
 
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
             System.out.println(year + " год является високосным");
         } else {
             System.out.println(year + " год не является високосным");
         }
-   }
+    }
+
     public static void task4() {
         System.out.println("Задача № 4");
         int deliveryDistance = 95;
         int deliveryDays = 1;
 
         if (deliveryDistance > 20) {
-            deliveryDays++ ;
+            deliveryDays++; // deliveryDays = deliveryDays + 1
         }
         if (deliveryDistance > 60) {
-            deliveryDays++ ;
+            deliveryDays++;
         }
         if (deliveryDistance > 100) {
             System.out.println("Доставки нет.");
@@ -67,6 +68,7 @@ public class Main {
 
 
     }
+
     public static void task5() {
         System.out.println("Задача № 5");
         int monthNumber = 12;
